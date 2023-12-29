@@ -3,7 +3,7 @@ local config = require('flexoki.config')
 local M = {}
 
 local base_colors = {
-	['flexoki-black']       = '#100F0F',
+	['flexoki-black']       = '#000000',
 	['flexoki-paper']       = '#FFFCF0',
 
 	['flexoki-950']         = '#1C1B1A',
@@ -107,7 +107,7 @@ local variants = {
 	}
 }
 
-M.palette = function ()
+M.palette = function()
 	local variant = {}
 
 	if config.options.variant == 'auto' then
