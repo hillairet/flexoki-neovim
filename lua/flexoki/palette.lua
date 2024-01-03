@@ -32,6 +32,7 @@ local base_colors = {
 
 	['flexoki-green-600']   = '#66800B',
 	['flexoki-green-400']   = '#879A39',
+	['flexoki-green-200']   = '#76a838',
 
 	['flexoki-cyan-950']    = '#142625',
 	['flexoki-cyan-600']    = '#24837B',
@@ -66,8 +67,8 @@ local variants = {
 		['or-2']   = base_colors['flexoki-orange-600'],
 		['ye']     = base_colors['flexoki-yellow-400'],
 		['ye-2']   = base_colors['flexoki-yellow-600'],
-		['gr']     = base_colors['flexoki-green-400'],
-		['gr-2']   = base_colors['flexoki-green-600'],
+		['gr']     = base_colors['flexoki-green-200'],
+		['gr-2']   = base_colors['flexoki-green-400'],
 		['cy']     = base_colors['flexoki-cyan-400'],
 		['cy-2']   = base_colors['flexoki-cyan-600'],
 		['bl']     = base_colors['flexoki-blue-400'],
